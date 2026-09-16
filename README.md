@@ -15,3 +15,18 @@
     3. Avec <=, on cherche une sous-séquence non-décroissante au lieu de strictement croissante — les égalités deviennent autorisées. Exemple : {3,3,3,3} donnerait 4 au lieu           de 1.
 
     4. Pour long/double, il suffit de changer le type du tableau. Pour des objets, il faut fournir une méthode de comparaison (comme un Comparator) à la place de <.
+
+# Exercice 2 — Tableau pivot
+
+<img width="405" height="120" alt="Capture" src="https://github.com/user-attachments/assets/1edf6705-d3c1-4fd4-9ddf-fd7880c0eede" />
+
+  # Questions de réflexion :
+        1. n² = trop de comparaisons répétées ; O(n) = 3 passages simples, beaucoup plus rapide.
+
+        2. Si le max à gauche est ≤ t[i], alors tous les éléments à gauche le sont aussi.
+
+        3. Si le min à droite est ≥ t[i], alors tous les éléments à droite le sont aussi.
+
+        4. Les égalités ne comptent plus, donc moins (voire aucun) pivot trouvé.
+
+        5. Difficile, car il faut connaître la gauche ET la droite en même temps ; on peut économiser la mémoire mais pas le nombre de passages.
