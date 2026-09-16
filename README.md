@@ -69,9 +69,22 @@
       4. Il faut compter la longueur de la suite actuelle et ne garder le résultat que si elle est assez longue.
 
 # Exercice 7 — Fréquence majoritaire (majorité absolue):
-  
-  
+
+<img width="939" height="379" alt="image" src="https://github.com/user-attachments/assets/b994a0c2-6a6d-4b15-abfc-bb286d779d08" />
+
+  # Questions de réflexion :
+
+      1. Deux éléments à plus de n/2 chacun, ça ferait plus que n au total, donc impossible.
+
+      2. Boyer-Moore garde juste 2 variables, pas besoin de stocker toutes les valeurs comme le HashMap.
+
+      3. Le candidat trouvé n'est pas garanti majoritaire, donc on doit vérifier sinon le résultat peut être faux.
+
+      4. Non, un seul candidat ne suffit plus, il en faut 2 (car on peut avoir jusqu'à 2 éléments qui dépassent n/3).
+
+# Exercice 8 — Nombres absents :
 
 
-  
+  # Questions de réflexion :
+
     
