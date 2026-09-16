@@ -43,6 +43,7 @@
   # Exercice 5 — Permutation circulaire :
 
 <img width="1104" height="466" alt="image" src="https://github.com/user-attachments/assets/906401c8-28db-4857-a930-ee69cb7d6af0" />
+
   # Questions de réflexion :
 
       1. Permutation = juste tous les nombres présents, pas forcément dans l'ordre circulaire.
@@ -54,6 +55,23 @@
       4. Oui, en vérifiant tout en même temps dans la boucle circulaire.
 
   # Exercice 6 — Sous-tableau de somme maximale (Kadane) :
+  
+  <img width="1142" height="398" alt="image" src="https://github.com/user-attachments/assets/a3d612fe-d744-4f7a-acc0-8dba0ad083d2" />
+  
+  # Questions de réflexion :
+  
+      1. Le naïf refait les calculs plusieurs fois avec des boucles imbriquées. Kadane fait tout en une seule passe.
+
+      2. Quand currentSum devient négatif, ça vaut mieux repartir de zéro.
+
+      3. maxSum sera le nombre le moins négatif. On initialise à t[0] sinon on pourrait rater ce cas et donner un mauvais résultat.
+
+      4. Il faut compter la longueur de la suite actuelle et ne garder le résultat que si elle est assez longue.
+
+# Exercice 7 — Fréquence majoritaire (majorité absolue):
+  
+  
+
 
   
     
