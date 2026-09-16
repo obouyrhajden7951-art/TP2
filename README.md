@@ -84,7 +84,24 @@
 
 # Exercice 8 — Nombres absents :
 
+<img width="884" height="255" alt="image" src="https://github.com/user-attachments/assets/4d52fb7b-7b97-4d9f-a40b-6a343d0731ca" />
 
   # Questions de réflexion :
 
-    
+    1.Parce qu'on vérifie tous les nombres de 1 à n un par un. Si une case reste à false, c'est que le nombre n'était pas dans t.
+
+    2.On les ignore avec une condition (if x >= 1 && x <= n), sinon ça peut planter le programme.
+
+    3.On décale les indices : vu[x - a] au lieu de vu[x], et on boucle de a à b au lieu de 1 à n.
+
+    4.Avantage : pas besoin de tableau supplémentaire, donc moins de mémoire utilisée. Risques : ça modifie le tableau original, et le code est plus compliqué à écrire sans       erreur.
+
+# Exercice 9 — Somme diagonale dans une matrice carrée :
+
+
+  # Questions de réflexion :
+
+# Exercice 10 — Matrice magique 3×3 :
+
+
+  # Questions de réflexion :
