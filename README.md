@@ -98,9 +98,18 @@
 
 # Exercice 9 — Somme diagonale dans une matrice carrée :
 
+<img width="987" height="397" alt="image" src="https://github.com/user-attachments/assets/130451d9-cb1f-47ca-b1e2-8074e1752fb4" />
 
   # Questions de réflexion :
+  
+    1. On vérifie tous les nombres de 1 à n un par un ; si une case reste false, le nombre est absent.
 
+    2. On les ignore avec une condition (x >= 1 && x <= n).
+
+    3. On décale les indices (vu[x - a]) et on boucle de a à b.
+
+    4. Moins de mémoire, mais modifie le tableau original et code plus complexe.
+    
 # Exercice 10 — Matrice magique 3×3 :
 
 
