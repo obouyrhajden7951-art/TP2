@@ -36,5 +36,12 @@
   
 <img width="1096" height="766" alt="image" src="https://github.com/user-attachments/assets/01979c8a-6b9a-4125-96fe-c79a9327e4d5" />
 
+  # Exercice 4 — Recherche d’un rectangle de 1 dans une matrice binaire :
+
+<img width="1017" height="270" alt="image" src="https://github.com/user-attachments/assets/1bf20359-b356-4db1-8b64-ccc64dfe976b" />
+
+  # Exercice 5 — Permutation circulaire :
+
+
   
     
