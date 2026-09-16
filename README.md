@@ -42,6 +42,18 @@
 
   # Exercice 5 — Permutation circulaire :
 
+<img width="1104" height="466" alt="image" src="https://github.com/user-attachments/assets/906401c8-28db-4857-a930-ee69cb7d6af0" />
+  # Questions de réflexion :
+
+      1. Permutation = juste tous les nombres présents, pas forcément dans l'ordre circulaire.
+
+      2. Ça donne le point de départ, plus besoin de tester plusieurs rotations.
+
+      3. Changer la valeur de départ et le pas (+10 au lieu de +1).
+
+      4. Oui, en vérifiant tout en même temps dans la boucle circulaire.
+
+  # Exercice 6 — Sous-tableau de somme maximale (Kadane) :
 
   
     
