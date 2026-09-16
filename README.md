@@ -112,5 +112,14 @@
     
 # Exercice 10 — Matrice magique 3×3 :
 
+<img width="884" height="193" alt="image" src="https://github.com/user-attachments/assets/37fe2081-aa40-4096-9db7-78338d1e62f6" />
 
   # Questions de réflexion :
+  
+      1. Parce que toutes les sommes doivent être égales entre elles ; il suffit donc de prendre n'importe laquelle comme référence et de comparer toutes les autres à       celle-ci.
+
+      2. Non, il vérifie juste l'égalité des sommes, pas que les valeurs sont 1..9 distinctes. Il faudrait ajouter une vérification (par exemple avec un tableau de booléens ou un Set) que toutes les valeurs entre 1 et 9 apparaissent une seule fois.
+
+    3. On généralise avec des boucles : pour chaque ligne i, calculer la somme sur n colonnes ; pareil pour chaque colonne j ; et pour les diagonales, utiliser m[i][i] et m[i][n-1-i].
+
+    4. O(n²), car il faut parcourir n lignes et n colonnes (chacune de taille n) pour calculer toutes les sommes.
