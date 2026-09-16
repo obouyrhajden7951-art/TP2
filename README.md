@@ -14,7 +14,8 @@
 
     3. Avec <=, on cherche une sous-séquence non-décroissante au lieu de strictement croissante — les égalités deviennent autorisées. Exemple : {3,3,3,3} donnerait 4 au             lieu de 1.
 
-    4. Pour long/double, il suffit de changer le type du tableau. Pour des objets, il faut fournir une méthode de comparaison (comme un Comparator) à la place de <.
+    4. Pour long/double, il suffit
+    de changer le type du tableau. Pour des objets, il faut fournir une méthode de comparaison (comme un Comparator) à la place de <.
 
 # Exercice 2 — Tableau pivot
 
@@ -32,4 +33,8 @@
         5. Difficile, car il faut connaître la gauche ET la droite en même temps ; on peut économiser la mémoire mais pas le nombre de passages.
 
   # Exercice 3 — Matrice spirale :
+  
+<img width="1096" height="766" alt="image" src="https://github.com/user-attachments/assets/01979c8a-6b9a-4125-96fe-c79a9327e4d5" />
+
+  
     
