@@ -1,7 +1,8 @@
 # TP2 
 # Exercice 1 — Sous-suite maximale croissante
 
-<img width="449" height="81" alt="LIS" src="https://github.com/user-attachments/assets/a754ca87-82f7-44f4-b408-724ccb72e151" />
+<img width="644" height="268" alt="image" src="https://github.com/user-attachments/assets/1e32067b-2da2-4a9f-bc8b-277b662f7958" />
+
 
   # Partie 3 – Jeux de tests :
   
